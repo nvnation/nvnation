@@ -1,29 +1,88 @@
 <!DOCTYPE html>
 <html>
 
-<link rel="stylesheet" type="text/css" href="main.css">
+
 <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
-
+<link rel="stylesheet" type="text/css" href="main.css">
+    
 <body>
-    <div class="wrapper">
-
-        <div class="left">
-            <img class="profile-picture" src="profile.jpg" width="200" />
-            <h1 class="name">Naveen Savio</h1>
-            <h4 class="subtitle">CS Student</h4>
+    <div class="container">
+        <div class = "profile-picture">
+        
+            <img class="profile-picture" src="profile.jpg" />        
         </div>
-
-        <div class="right">
-            <p class="bio">
-                Computer Science student, part engineer, full time coder.
-            </p>
-            <ul class="social-links">
-                <li><a href="https://github.com/nvnation">Github</a></li>
-                <li><a href="https://www.linkedin.com/in/naveen-savio-00aa34129">LinkedIn</a></li>
+         <div class = "info-text"> 
+                <h1>Naveen Savio</h1> 
+                <h2> B.S. Computer Science, University of California, Santa Cruz</h2>
+                <p> Aspiring Software Engineer with a passion for complex algorithms and problem solving in a timely, efficient manner. Appreciates the
+                difficulty of engineering while never backing down from a challenge. Highly motivated with strong interpersonal and communication
+                skills and always aims to exceed expectations. 
+                </p>
+                
+            </div>
+        <div class = "work-experience">
+        <h1>Work Experience </h1> 
+            <ul> 
+                <li>
+                    <p><strong> Technical Student Intern (California Department of General Services)</strong></p>
+                    <ul>
+                        <li>
+                            Test Automation and Application Validation using Selenium in <strong>Python & C# </strong>
+                            <ul>
+                                <li>
+                                Saved the department upwards of 30+ hours in time as well as money associated with manual testing
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            Wrote various scripts using PowerShell for certificate validation and administration, IP gathering, file maintenance, server maintenance, and active directory updates                     
+                        </li>
+                        <li>
+                            Managed and updated SharePoint sites for the team using C#, PowerShell and Microsoft InfoPath                     
+                        </li>
+                        <li>
+                           Converted and published numerous excel workbooks for the web using Report Builder(SSRS) & SQL Server SP3                
+                        </li>
+                        <li>
+                            Resolved technical issues using BMC Remedy Incident Management Console and Ticket System                    
+                        </li>
+                    </ul>
+                </li>
             </ul>
         </div>
-
+        <div class = "technical-skills">
+        <h1>Technical Skills</h1>
+              <ul> 
+                <li>
+                    <p><bold>Languages</bold></p>
+                    <ul>
+                        <li>
+                            Proficient: Python, C#, HTML, CSS, JavaScript (Vue.js, Node.js) 
+                            Familiar: C, C++, Java, SQL, MATLAB
+                        </li>
+                        <li>
+                            Databases: MySQL, PostgreSQL, SQL Server SP3, MS Access
+                        </li>
+                        <li>
+                            Other Skills: Web2py, Printer Logic, Data Management, Interface Design and Development, Unix/Linux, Windows (XP, 7, 8, 10), Computer Architecture, Git, NetScaler, IP Monitor, Visio Diagrams (Network, Topology, Rack Elevation etc.)                    
+                        </li>                    
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class = "social-links">
+            
+            <a href="https://github.com/nvnation">
+            <img                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAQ5SURBVGhD7dlZqFVVHMfxW1Y2UWphFBEVKSqK0UBz0EBFllAOKAriSIRYBFEU0UsPzURU1EMPQfVQREUWiVhpD0FYNhnRPFHRTCPNfb90FmzW+e99977ufZS4P/jAvfecvdY+++y91n+tOzSa/3EOwRLcg2fxGX7AP/gT3+ItPIbrcCb2xA6RCbgEm+EJN/ULHsA52AkDz/64AemKt+EVzMVAPpCdrMRXiE6mDd6WU9FZ9sNaRJ237VesQuuZgg8Rddqle7ELWskx+BpRR4PwBHbDNmUavkTUwSA9hDEYUXwmPkbU8PZwMxrH0anqwf4Nf2R/a8PPwd+SvzEbjeIQGzWWnA+/6sNxGd5B9D45ozvxRa95Me7DWdgHtvkCovfK29xJuFa8paoe7t+xM4rxYbwW7+EOnI2DUXxIPVHnh4vwNF7GdOS5HFG/yd2oFWfsqIHEq9JlliHqN7Fum4TK+LX9iKiB5Ht0GSfCqN8i55fKrEF0YG48usqNiPoscuYfh9K8hOjA3BnoKtZaUZ+50hLG9UR0QMR1R1dxwIj6zD2FMJ5cdEDuDeyKrrIAUb85lxDhebiyiw7IdVKVFuLQ/hGivnNHoS8bEb25yNnVRVXXca6I+s8tRF8+RfTmIq/UIHIpov5z16AvdZatr2MQuRhR/7mwkCy+wTLEGul9fNH7WW9iEHF2d0NDz2M9nuv9/i6+ged5F/ri/e+LY3usuSwK5QSYjHhd0CCTcXTP6XDr6LTe75YnV6H0g3wHX4zKc8sW96nclzoVXcYlxDo4n1jXlVXOuh598bbxxVswD8fiADgcWrkeCK+GQ16XWzZOzEfCO2EiUnlvNX0yFiOV+u6p9cW1sS8+ApeWL6JsmbsaXcSTjZYQVryfwOflfqT1zyz05UrkDZSxYb+1NuM37qgY9Rf5Cz7HfTkR0QFlHBwc/vbGtuZcfI6onzKvIox1S9ma2ecnjWo5T8DV4WFoEi+AdVXdajd3O0rjhnJ0kPXVDHgVoteTt/EgrsYiHATjw3oCXO+4FLYccgMjaqOuytHzeEQH+W1cgH3xWu9vVZ6Bo0+eC+EKMzqmCdf7w6ZsceW47valI4uza/QebULVzuBxqNr2qWMFhs0cRAfLK2qc4Z1dH8XD8Ja8E9ZIlUvQXq5A1H4d7kHvgVp5ElEjG9BG/MasFKI+hnMeaudQlH39S9FGbkPUfhUn68Yp25bxwfeWcjfSSTEJZ9mKzEfUfhln9jQKNs5wm3VFW9EkDp9RO5Gf4PA/4jj+P46o8ZzDcpNYAEbt5CyHGm9eR/HBdKM56qSoiw/i8qHpLVsZy3bXx2Vlitr+ID4TlvOdxH8nlG3VtPlBHJ2shjuNxd5NyFeSTT/ISSgerw/QaJ5oI0fgVqQlsht8TeLOfzp2C5Zjd2y37AXnhNplQyEzccp/P45mNDtghob+BWm8vkDPJb3BAAAAAElFTkSuQmCC" >
+            </a>
+        <a href="https://www.linkedin.com/in/naveen-savio/">
+    
+         <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMGSURBVGhD7dlbqA1RHMfxI3e5pCTlkkjxgPJALk8eyJ1E8kBEotzKI6WUB6EoCsmDKCKSlBcp4YUUyoPcQuQut9x9v9NZtRtrZm+Hvc8+mV99Ys38Z+/5n3P2zJq1G4oUqV2GYR/u4Qs+4SY2oxdaRFbhK342+oYfJeOXGI+6ziSEk9+BIWiH9vC3dADuf4f+qNuchye6OhnFswfW7ExGdZoP+I7OySieEbCR68moTvManmTeB3okrLmWjOo0R+FJ+vmIpRWOw5rtbqjXDIYfZE/0NCZjIPphOi7Bff7meqOuMxYP4QnHPMIotIh0wjKcgB/qWziDleiKIrVKRwyoUFuUpgtidWneSFsjKx3gVdObcJNzF7HPRcw5hPjnFi7dlXCGEDII63ERb1Ba9wLHsADOMCqOB3tDvJPjAazz3xCvam77jNgxwWNYdwF9cRi+n9sCm3Gy+r5km+5jLipKeKG8hJOONVLubj8O1j3Fq8b/e8L74TyvG0rTE4twGdZqK7yf5cbCWjQS7EUPlIsnvhAf4XFl53kWVbOR4bDuLbzB/mnGwPmgrzHLDVmpdiP+ZOfBx4OmZgl8ryfwKhtNtRv5VwlTpaXJKJLmaKQPnOM5m6g0M+D7XUlGkdSqEf/EVsBLqsfJdQEvx75WubSBVzsv3d3dkE4tGrGJQwgN+H63EdYFnmEoyuUsrJ+WjFIJL5yXv23ExQ1rvWvPRrgnOC05CffdgD/1vGyBtWuTUSruqGYjnrSPAdbOdEMqTkN88nR/ucvzOli3KRml4o5qNuJDmnXPk1E8a2DNtmSUncWwbncySsUd1WxkNKxzgpiVqbDmVDLKznxY1yyNhCmKk8asTIE1PmrnpWgkpGiEFI1EUjQSUjRCikYiKRoJKRohRSOR/D+NuG40J8dyWBdrxG2xY4INsK6SRq4i9hqB36pZF20kvQ6bxwXvEFdCYjVZ/PY4KxMROybLLvwWv8jxe8RyjsCFthAfYTciVpvmSskEZMVFN3/asWPTDsLVyyJFipRNQ8MvRDj5KHUineAAAAAASUVORK5CYII="/>
+        </a>
+        </div>
+        
     </div>
+    
 </body>
 
 </html>
