@@ -12,8 +12,20 @@ html, body {
   font-family: 'Roboto', sans-serif;
 }
 
-body{
+html{
     background-image: url(Savin-NY-Website-Background-Web-1.jpg);
+/*    background-image: repeating-linear-gradienturl(Savin-NY-Website-Background-Web-1.jpg)*/
+/*
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+*/
+/*    background-size: cover;*/
+/*
+    background-repeat: repeat-x;
+background-repeat: repeat-y;
+*/
+    height: 100%;
 }
 
 /*
@@ -50,8 +62,12 @@ body{
     width: auto;   
 }
 
+.courses{
+    display: inline;
+    text-align: left;
+}
 .profile-picture {
-/*    float: left;*/
+    float: left;
 
     border-radius: 50%;
     align-content: center;
@@ -61,6 +77,14 @@ body{
     border: 3px solid white;
 }
 
+.courses{
+/*    float: right;*/
+}
+/*
+.col2{
+    float: right;
+}
+*/
 .social-links {
    align-content: center;
     width: 100%;
